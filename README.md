@@ -9,3 +9,10 @@ I realized that I need to practice about responsive design and I started doing p
 ![Screen-1](../main/assets/screen-1.png)
 ------------------------------------
 ![Screen-2](../main/assets/screen-2.png)
+------------------------------------
+## second project My Skill Section
+------------------------------------
+![my-skill-1](../main/assets/my-skill-1.png)
+------------------------------------
+![my-skill-2](../main/assets/my-skill-2.png)
+------------------------------------
