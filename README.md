@@ -16,3 +16,4 @@ I realized that I need to practice about responsive design and I started doing p
 ------------------------------------
 ![my-skill-2](../main/assets/my-skill-2.png)
 ------------------------------------
+![my-skill-3](../main/assets/my-skill-3.png)
