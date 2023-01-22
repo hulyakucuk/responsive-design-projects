@@ -18,4 +18,4 @@ I realized that I need to practice about responsive design and I started doing p
 ------------------------------------
 ![my-skill-3](../main/assets/my-skill-3.png)
 ------------------------------------
-![profile_card](../main/assets/profile_card.png)
+![profile_card](../main/assets/profile-card.png)
