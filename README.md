@@ -14,5 +14,5 @@ I realized that I need to practice about responsive design and I started doing p
 ## [Profile Cart](../main/profile-card)
 ------------------------------------
 
-## ![Product Cart](../main/product-card)
+## [Product Cart](../main/product-card)
 ------------------------------------
