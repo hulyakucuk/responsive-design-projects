@@ -18,6 +18,18 @@ body{
     flex-direction: column;
 
 }
+.login-form.active {
+ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+  
+  .login-form {
+    display: none;
+  }
+  
 .container{
     background-color: aliceblue;
     text-align: center;
@@ -121,10 +133,62 @@ a{
 .container .github i,
 .container .twitter i,
 .container .facebook i{
-
     padding-right: 22px;
 }
 
+.message {
+    display: none;
+    color: red;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  .message.active {
+    display: block;
+  }
+  /* True Login */
+.login-true {
+    display: none;
+  }
+  
+  .login-true.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-true h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .login-true h2 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .return-start {
+    width: 200px;
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: rgb(83, 71, 207);
+    border: 1px solid #333;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .return-start:hover {
+    color: #333;
+    background-color: #fff;
+    border: none;
+  }
+  
+  .text-primary {
+    text-transform: capitalize;
+  }
 @media screen and (max-width:800px) {
     .container{
         width: 80%;

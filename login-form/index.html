@@ -18,24 +18,22 @@
             <i class="fa-solid fa-cat"></i>
         </div>
         <div class="title">Login</div>
-    <form action="#">
+    <form action="#" class="login-form active">
      
         <div class="input-box">
-            <input type="email" required placeholder="enter your email....">
-            <div class="underline"></div>
+            <input type="username" required placeholder="enter your username...." id="username">
         </div>
         <div class="input-box">
-            <input type="password" required placeholder="enter your password">
-            <div class="underline"></div>
+            <input type="password" required placeholder="enter your password" id="password">
         </div>
         <div class="input-box">
-            <input type="submit" value="Login">
+            <input type="submit" value="Login" class="login-btn">
+            <p class="message">Wrong username or password</p>
         </div>
-    </form>
-    <div class="text">
-        or Login with social media
-    </div>
-
+        <div class="text">
+            or Login with social media
+        </div>
+        
     <!-- Social media buttons -->
 <div class="social-media-buttons">
     <div class="github">
@@ -48,7 +46,16 @@
         <a href="#"><i class="fa-brands fa-facebook"></i>Login with Facebook</a>
     </div>
 </div>
+    </form>
+
+  
+    <!-- Succesfull login -->
+    <div class="login-true active"></div>
+
+   
+
 </div>
+<script src="app.js" defer></script>
 </body>
 
 </html>
