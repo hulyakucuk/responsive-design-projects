@@ -6,18 +6,14 @@ I realized that I need to practice about responsive design and I started doing p
 
 ## Registration
 ------------------------------------
-![Screen-1](../main/assets/screen-1.png)
+![Registration](../main/Registration)
 ------------------------------------
-![Screen-2](../main/assets/screen-2.png)
-------------------------------------
+
 ## My Skills Section
 ------------------------------------
-![my-skill-1](../main/assets/my-skill-1.png)
+![My Skills Section](../main/my-skill-section)
 ------------------------------------
-![my-skill-2](../main/assets/my-skill-2.png)
-------------------------------------
-![my-skill-3](../main/assets/my-skill-3.png)
-------------------------------------
+
 ## Profile Card
 ------------------------------------
-![profile_card](../main/assets/profile-card.png)
+![Profile Cart](../main/profile-card)
