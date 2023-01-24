@@ -8,10 +8,11 @@ I realized that I need to practice about responsive design and I started doing p
 ## [Registration](../main/Registration)
 ------------------------------------
 
-## ![My Skills Section](../main/my-skill-section)
+## [My Skills Section](../main/my-skill-section)
 ------------------------------------
 
-## ![Profile Cart](../main/profile-card)
+## [Profile Cart](../main/profile-card)
 ------------------------------------
 
 ## ![Product Cart](../main/product-card)
+------------------------------------
