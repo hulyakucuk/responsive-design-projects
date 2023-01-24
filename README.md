@@ -4,14 +4,13 @@ Hi! I am Hülya. I am a student of computer programming who is trying to improve
 I realized that I need to practice about responsive design and I started doing projects. This repo is for the projects I m building.
 
 
-## Registration
-------------------------------------
-![Registration](../main/Registration)
+
+## ![Registration](../main/Registration)
 ------------------------------------
 
-## My Skills Section
-------------------------------------
-![My Skills Section](../main/my-skill-section)
+## My Skills Section (../main/my-skill-section)
+
+![My Skills Section] 
 ------------------------------------
 
 ## Profile Card
