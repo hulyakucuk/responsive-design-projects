@@ -1,0 +1,135 @@
+
+@import url("https://fonts.google.com/specimen/Poppins?query=poppins");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    flex-direction: column;
+
+}
+.container{
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    border-radius: 6px;
+
+}
+.container .logo{
+   margin-top: 20px;
+
+}
+.title{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 30px 20px;
+}
+form .input-box input{
+    width: 80%;
+    background: aliceblue;
+    border: none;
+    text-align: center;
+    outline: none;
+    height: 6vh;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+    border: 1px solid #ccc;
+    font-weight: 500;
+    font-size: 15px;
+}
+form .input-box input:focus{
+    border: 1px solid rgb(99, 21, 187);
+}
+
+form .input-box input[type="submit"]{
+    width: 80%;
+    background-color: rgb(242, 37, 37);
+    border-radius: 6px;
+    font-size: 20px;
+    height: 6vh;
+    color: rgb(228, 218, 218);
+    cursor: pointer;
+}
+form .input-box input[type="submit"]:hover{
+    transition: all 0.5s ease;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.15);
+    color: red;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.text{
+    margin: 15px;
+    font-weight: 400;
+}
+.social-media-buttons{
+    width: 80%;
+    margin: 20px auto;
+}
+.github {
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.container .github:hover{
+    background-color: #6d7e8f;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+.twitter {
+    width: 100%;
+    background-color: rgb(49, 226, 214);
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.container .twitter:hover{
+    background: #aabbbe;
+}
+
+.facebook {
+    width: 100%;
+    background-color: rgb(29, 51, 148);
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.container .facebook:hover{
+    background: #8797b6;
+}
+.container .github i,
+.container .twitter i,
+.container .facebook i{
+
+    padding-right: 22px;
+}
+
+@media screen and (max-width:800px) {
+    .container{
+        width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
