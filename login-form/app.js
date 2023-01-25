@@ -45,7 +45,7 @@ loginBtn.addEventListener("click", function (event) {
     event.preventDefault();
 });
 
-//    FUNCTİON
+//    FUNCTION
 
 function isusernameValid(username, password) {
     for (let i = 0; i < userDatabase.length; i++) {
