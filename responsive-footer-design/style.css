@@ -19,6 +19,16 @@ footer{
     left: 0;
 }
 
+footer::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    top: 100px;
+}
+
 footer .content{
     max-width: 1250px;
     margin: auto;
@@ -29,6 +39,7 @@ footer .content .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .content .header .logo{
@@ -86,3 +97,84 @@ footer .content .header{
     color: #E1306C;
 }
 
+.link{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link .box{
+
+    width: calc(100% / 5 - 10px);
+}
+
+.link .box li{
+    list-style: none;
+    margin: 6px 0;
+}
+
+.box .link-name{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.link .box .link-name::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+}
+
+.link .box li a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    opacity: 0.8;
+    transition: all 0.4s ease;
+}
+
+.content .link .box li a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.content .link .input-box{
+    margin-right: 55px;
+}
+
+.link .input-box input{
+    height: 40px;
+    width: calc(100% + 55px);
+    outline: none;
+    border: 2px solid #AFAFB6;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 15px;
+    
+}
+
+.link .input-box input::placeholder{
+    color: #AFAFB6;
+    font-size: 16px;
+}
+.link .input-box input[type="button"]{
+    background: #fff;
+    color: #140B5C;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 4px 0;
+    opacity: 0.8;
+    transition: all 0.4s ease;
+}
+
+.link .input-box input[type="button"]:hover{
+    opacity: 1;
+}
