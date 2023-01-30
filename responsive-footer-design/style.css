@@ -178,3 +178,35 @@ footer .content .header{
 .link .input-box input[type="button"]:hover{
     opacity: 1;
 }
+
+footer .bottom-details{
+    width: 100%;
+    background: #0F0844;
+}
+
+footer .bottom-details .bottom-text{
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-details .bottom-text span,
+.bottom-details .bottom-text a{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.bottom-details .bottom-text a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.bottom-details .bottom-text a{
+    margin-right: 10px ;
+}
+
