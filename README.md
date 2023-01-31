@@ -22,3 +22,6 @@ I realized that I need to practice about responsive design and I started doing p
 
 ## [Responsive Sidebar darkLight mode](../main/sidebar-darkLightMode)
 ------------------------------------
+
+## [Responsive Footer Design](../main/responsive-footer-design)
+------------------------------------
