@@ -83,8 +83,11 @@ header{
         right: 0;
         width: 100vw;
         background: #11101b;
-        transition: 0.2s;
+        transition: 0.5s;
         overflow: hidden;
+    }
+    .navbar.active{
+        height: 450px;
     }
     .navbar ul{
         display: block;
@@ -94,7 +97,10 @@ header{
         transition: 0.5s;
         opacity: 0;
     }
-    .nav-bar ul li a {
+    .navbar.active ul{
+        opacity: 1;
+    }
+    .navbar ul li a {
         margin-bottom: 12px;
 
     }
