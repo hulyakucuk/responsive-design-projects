@@ -150,6 +150,11 @@ nav .navbar .logo a{
     display: flex;
     align-items: center;
     background-color: var(--nav-color);
+    padding: 3px;
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
 }
 
 .search-field input{
@@ -157,6 +162,17 @@ nav .navbar .logo a{
     width: 100%;
     padding: 0 45px 0 15px;
     outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: var(--search-bar);
+}
+
+.searchToggle.active ~ .search-field{
+    opacity: 1;
+    pointer-events: auto;
+    bottom: -70px;
+
 }
 
 .search-field i{
