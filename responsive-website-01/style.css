@@ -2,13 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 :root{
-    --body-color: #;
-    --nav-color: #;
-    --side-nav:#;
-    --text-color:#;
-    --search-bar:#;
-    --search-text:#;
+    --body-color: #E4E9F7;
+    --nav-color: #4070F4;
+    --side-nav:#010718;
+    --text-color:#FFF;
+    --search-bar:#F2F2F2;
+    --search-text:#010718;
+}
+
+BODY{
+    height: 100vh;
+    background-color: var(--body-color);
 }
