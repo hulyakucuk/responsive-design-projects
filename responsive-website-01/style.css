@@ -77,7 +77,36 @@ nav .navbar .logo a{
     border-radius: 50%;
   
 }
+.navbar .darkLight-searchBox{
+    display: flex;
+    align-items: center;
+}
+.darkLight-searchBox .dark-light,
+.darkLight-searchBox .searchBox{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+.dark-light i,
+.searchBox i{
+    position: absolute;
+    color: var(--text-color);
+    font-size: 22px;
+    cursor: pointer;
+}
 
+.dark-light i.sun{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.searchBox i.cancel{
+    opacity: 0;
+    pointer-events: none;
+}
 main{
     position: relative;
     top: 100px;
