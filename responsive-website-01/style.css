@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --body-color: #;
+    --nav-color: #;
+    --side-nav:#;
+    --text-color:#;
+    --search-bar:#;
+    --search-text:#;
+}
