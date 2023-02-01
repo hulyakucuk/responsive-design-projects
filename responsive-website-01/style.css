@@ -14,9 +14,138 @@
     --text-color:#FFF;
     --search-bar:#F2F2F2;
     --search-text:#010718;
+    --facebook: #4267B2;
+    --twitter:#1DA1F2;
+    --linkedin: #0077B5;
+    --instagram:#E1306C;
 }
 
-BODY{
+body{
     height: 100vh;
     background-color: var(--body-color);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: var(--nav-color);
+}
+
+nav .navbar{
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color:var(--nav-color);
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .navbar .logo a{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color);
+
+}
+
+.navbar .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar .nav-links li a{
+    position: relative;
+    font-size: 17px;
+    color: var(--text-color);
+    font-weight: 500;
+    border-radius: 50px;
+    transition:0.2s;
+    padding: 10px 25px;
+
+}
+.navbar .nav-links li a:hover{
+    background-color: var(--text-color);
+    color: var(--nav-color);
+ 
+    border-radius: 50%;
+  
+}
+
+main{
+    position: relative;
+    top: 100px;
+}
+h3{
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--text-color);
+    margin: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    left: 0;
+    background-color: var(--nav-color);
+}
+ .header .social-media-btn{
+    display: flex;
+}
+
+footer .header .social-media-btn a{
+    height: 20px;
+    width: 20px;
+    margin: 10px 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color:  var(--text-color);
+    font-size: 10px;
+    
+}
+
+.social-media-btn a:nth-child(1){
+    background: var(--facebook);
+}
+.social-media-btn a:nth-child(1):hover{
+    background: var(--text-color);
+    color: var(--facebook);
+}
+.social-media-btn a:nth-child(2){
+    background: var(--linkedin);
+}
+.social-media-btn a:nth-child(2):hover{
+    background: var(--text-color);
+    color: var(--linkedin);
+}
+.social-media-btn a:nth-child(3){
+    background: var(--twitter);
+}
+.social-media-btn a:nth-child(3):hover{
+    background: var(--text-color);
+    color: var(--linkedin);
+}
+.social-media-btn a:nth-child(4){
+    background: var(--instagram);
+}
+.social-media-btn a:nth-child(4):hover{
+    background: var(--text-color);
+    color: var(--instagram);
 }
