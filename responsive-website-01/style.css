@@ -42,6 +42,7 @@ nav{
     height: 70px;
     width: 100%;
     background-color: var(--nav-color);
+    z-index: 100;
 }
 
 nav .navbar{
@@ -57,13 +58,22 @@ nav .navbar{
     justify-content: space-between;
 }
 
+nav .navbar .sidebarOpen{
+    color: var(--text-color);
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
 nav .navbar .logo a{
     font-size: 25px;
     font-weight: 500;
     color: var(--text-color);
 
 }
-
+.menu .logo-toggle{
+  display: none;
+}
 .navbar .nav-links{
     display: flex;
     align-items: center;
@@ -226,6 +236,10 @@ footer .header .social-media-btn a{
     
 }
 
+body.dark .search-field input{
+    color: var(--text-color);
+}
+
 .social-media-btn a:nth-child(1){
     background: var(--facebook);
 }
@@ -254,3 +268,48 @@ footer .header .social-media-btn a{
     background: var(--text-color);
     color: var(--instagram);
 }
+
+
+@media (max-width:790px) {
+    nav .navbar .sidebarOpen{
+
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        height: 100%;
+        width: 320px;
+        left: -100%;
+        top: 0;
+        padding: 20px;
+        background-color: var(--side-nav);
+        z-index: 100;
+        transition: all 0.4s ease;
+    }
+    nav.active .menu{
+        left: -0%;
+    }
+    .navbar .nav-links{
+        flex-direction: column;
+        padding-top:30px ;
+
+    }
+    .menu .logo-toggle{
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-toggle .sidebarClose{
+        color: var(--text-color);
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .nav-links li a{
+        display: block;
+        margin-top: 0px;
+    }
+}
+
+
