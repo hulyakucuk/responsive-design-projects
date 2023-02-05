@@ -33,7 +33,7 @@ header{
 }
 
 .navbar ul{
-    display:flex
+    display:flex;
 }
 .navbar ul li a {
     color: #fefefe;
