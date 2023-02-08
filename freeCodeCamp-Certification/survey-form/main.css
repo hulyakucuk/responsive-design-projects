@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    /* color: #fff; */
+}
+body{
+    background-color: #837cc0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    padding: 30px;
+    color: #222;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+   margin: auto;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.form-group textarea {
+    min-height: 120px;
+    width: 100%;
+    resize: vertical;
+    padding: 0.5rem;
+    margin: .5rem;
+}
+label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom:10px ;
+}
+.form-group  p{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+input{
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+select{
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+#submit{
+background-color: rgb(55, 188, 97);
+outline: none;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+width: 100%;
+font-size: 1.2rem;
+color: #333;
+}
+#submit:hover{
+    color: #fff;
+    background-color: rgb(32, 146, 68);
+}
+#title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 60px;
+}
+#description{
+    margin: 10px auto;
+    margin-bottom: 40px;
+    font-size: 1rem;
+
+}
