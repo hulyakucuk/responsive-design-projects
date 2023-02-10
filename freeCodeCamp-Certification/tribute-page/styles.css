@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+}
+main{
+    margin: 2.5rem 0 2rem 0;
+    background:#eee;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+}
+#title{
+    margin-top: 2rem;
+
+}
+figure{
+    text-align: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 100%;
+    display: block;
+
+}
+#img-div{
+    padding: 1rem;
+    background: white;
+
+
+}
+figcaption{
+    display: block;
+    max-width: 850px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#img-caption{
+    padding: 1.5rem 0 0 0; 
+}
+#tribute-info{
+    text-align: center;
+    align-items: center;
+    padding: 2.5rem;
+    display: block;
+
+}
+#tribute-info ul{
+    display: block;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+#tribute-info h2{
+    margin-bottom:2rem ;
+    letter-spacing: 0.1rem;
+}
+blockquote{
+    display: block;
+    max-width: 550px;
+    text-align: left;
+}
+main h3{
+    text-align: left;
+    padding: 1rem;
+    max-width: 600px;
+}
