@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    position: fixed;
+    background-color:#3a5a40 ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    padding: 1.3rem;
+}
+nav ul li a{
+    color: #eee;
+    cursor: pointer;
+}
+#welcome-section{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    /* color: #eee; */
+   background-color: #ccd5ae;
+}
+#projects{
+    text-align: center;
+    background-color: #dad7cd;
+}
+.project-tile{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 3rem;
+    height: 100vh;
+    max-width: 1280px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+#contact{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 10rem 2rem;
+    background-color:#d9e6db ;
+}
+.social-media-btn ul{
+    display: flex;
+    flex-direction: row;
+}
+.social-media-btn ul li{
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: 2.5rem;
+ 
+}
+.social-media-btn ul li a{
+    color: #10430a;
+}
+.social-media-btn ul li a:hover{
+    cursor: pointer;
+    color: #186610;
+}
+footer{
+    font-weight: 300;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30rem;
+    background-color: #eee;
+}
+@media (max-width:750px) {
+  
+  #navbar ul {
+      display: flex;
+      flex-direction: column;
+      /* margin: auto; */  
+      background-color: #3a5a40;
+      width: 100%;
+     position: absolute;
+  }
+  #navbar ul li{
+    text-align: center;
+
+  }
+  #welcome-section{
+    padding: 20rem;
+  }
+  .project-tile{
+    display: flex;
+    flex-direction: column;
+  }
+  .social-media-btn ul{
+    display: flex;
+    flex-direction: column;
+}
+    }
