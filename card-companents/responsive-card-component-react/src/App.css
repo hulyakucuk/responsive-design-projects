@@ -1,0 +1,58 @@
+/*  */
+
+.app{
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-container{
+width: 300px;
+overflow: hidden;
+box-shadow: 0px 0px 15px -2px;
+transition: 0.3s;
+animation: ease-in;
+margin: 1rem;
+}
+.card-content{
+    margin: 1.3rem;
+    margin-top: 1.5rem;
+
+}
+.card-title{
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    padding: 0.5rem;
+    background-color: coral;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 1rem;
+}
+.btn button:hover{
+    background: cornflowerblue;
+    cursor: pointer;
+}
+.card-content h3,p{
+    margin: 0;
+    padding: 0;
+
+}
+.card-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.image-container img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+}
